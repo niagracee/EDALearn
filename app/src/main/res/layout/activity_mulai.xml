@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mulai"
+    android:orientation="vertical"
+    tools:context=".activity.MulaiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ayo Mulai!"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvResultNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/wine"
+            android:textStyle="bold"
+            tools:text="Fariz"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_round_button"
+            android:text="Lihat Profil"
+            android:textColor="@color/wine" />
+
+        <Button
+            android:id="@+id/btMateri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_round_button"
+            android:text="Mulai Belajar"
+            android:textColor="@color/wine" />
+
+    </LinearLayout>
+
+</LinearLayout>

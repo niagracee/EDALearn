@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f3ac0c</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grainYellow">#fadf63</color>
+    <color name="keyLime">#e7eb90</color>
+    <color name="lapisBlue">#2274a5</color>
+    <color name="wine">#632b30</color>
+    <color name="flashWhite">#f2f2f2</color>
+    <color name="colorPrimary2">#008577</color>
+</resources>
